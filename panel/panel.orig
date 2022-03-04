@@ -1,0 +1,189 @@
+//*********************************************************
+// CARENADO BONANZA A36 FSX
+// Copyright © Carenado 2011 - All Rights Reserved
+//*********************************************************
+
+[Window Titles]
+Window00=GPS
+Window01=Toggle_Manual
+Window02=Toggle_Control
+Window03=EFD1000
+Window04=INFO
+//--------------------------------------------------------
+[Window00]
+Background_color=49,49,49 
+size_mm=500,520
+window_size_ratio=1.000  
+position=0
+visible=0
+ident=794
+window_size= 0.320, 0.444
+window_pos= 0.020, 0.505
+zorder=0
+
+gauge00=CarenadoG430_3D_A36!GNS430_nc1,  2,0,500,266
+gauge01=CarenadoG430_3D_A36!GNS430_nc2,  3,252,500,266
+gauge02=BA36!Toggle_GPS,  115,38,274,164
+gauge03=BA36!Toggle_GPS,  114,291,278,164
+
+//--------------------------------------------------------
+[Window01]
+Background_color=0,0,0 
+size_mm=700,700
+window_size_ratio=1.000  
+position=0
+visible=0
+ident=793
+window_size= 0.421, 0.681
+window_pos= 0.520, 0.020
+zorder=5
+
+gauge00=A36Manual!manual,  0,0,700,700
+
+//--------------------------------------------------------
+[Window02]
+Background_color=0,0,0 
+size_mm=380,174
+window_size_ratio=1.000  
+position=0
+visible=0
+ident=796
+window_size= 0.201, 0.123
+window_pos= 0.020, 0.160
+zorder=5
+
+gauge00=BA36!Control_windows,  0,0,380,174
+
+//--------------------------------------------------------
+[Window03]
+Background_color=32,32,32 
+size_mm=520,1024
+window_size_ratio=1.000  
+position=0
+visible=0
+ident=795
+window_size= 0.200, 0.761
+window_pos= 0.770, 0.210
+
+gauge00=EFD1000_A36!EFD1000_pfd,  1,0,513,1022
+gauge01=BA36!Toggle_EFD,  0,0,513,100
+
+//--------------------------------------------------------
+[Window04]
+file=info.bmp 
+size_mm=419,181
+window_size_ratio=1.000  
+position=0
+visible=1
+ident=142
+window_size= 0.200, 0.115
+window_pos= 0.020, 0.040
+
+//--------------------------------------------------------
+[Vcockpit01]
+Background_color=0,0,0 
+size_mm=512,512
+visible=0
+pixel_size=1024,1024
+texture=$ASP1000
+
+gauge00=EFD1000_A36!EFD1000Config,  0,0,10,10
+gauge01=EFD1000_A36!EFD1000_pfd,  0,0,257,512
+
+//--------------------------------------------------------
+[Vcockpit02]
+Background_color=0,0,0 
+size_mm=512,512
+visible=0
+pixel_size=1024,1024
+texture=$Panel_bon_2
+
+gauge00=BA36!RPM_Digital,  231,145,213,99
+gauge01=BA36!Annunciator_Panel,  2,2,508,25
+gauge02=BA36!Ignition Switch,  320,185,68,68
+gauge03=BA36!Panel_annunciator,  0,145,230,86
+gauge04=RadioA36!RadioAudio,  0,57,451,87
+gauge05=APBK_A36!Autopilot,  0,377,512,134
+gauge06=RadioA36!Radio_KR87_ADF,  0,246,512,104
+gauge07=BA36!annunciator_test,  478,77,30,30
+gauge08=BA362!GPSALT, 0,0,5,5
+
+//--------------------------------------------------------
+[Vcockpit03]
+Background_color=0,0,0 
+size_mm=512,512
+visible=0
+pixel_size=1024,1024
+texture=$Panel_bon_4_N
+
+gauge00=CarenadoG430_3D_A36!GNS430_nc1,  172,68,337,179
+gauge01=CarenadoG430_3D_A36!GNS430_nc2,  172,248,337,179
+gauge02=BA36!gem,  8,354,154,154
+
+//--------------------------------------------------------
+[Vcockpit04]
+Background_color=0,0,0 
+size_mm=512,512
+visible=0
+pixel_size=1024,1024
+texture=$ASP1000_N
+
+gauge00=EFD1000_A36!EFD1000_pfd,  0,0,257,512
+
+//--------------------------------------------------------
+[Vcockpit05]
+Background_color=0,0,0 
+size_mm=512,512
+visible=0
+pixel_size=1024,1024
+texture=$Panel_bon_2_A
+
+gauge00=BA36!Annunciator_Panel_OFF,  2,29,508,25
+
+//--------------------------------------------------------
+[Vcockpit06]
+Background_color=0,0,0 
+size_mm=512,512
+visible=0
+pixel_size=1024,1024
+texture=$Panel_bon_4_A
+
+gauge00=DIGTTRANS_A36!transponder,  170,428,340,83
+
+//--------------------------------------------------------
+[Vcockpit07]
+Background_color=0,0,0 
+size_mm=512,512
+visible=0
+pixel_size=1024,1024
+texture=$Panel_bon_5
+
+gauge00=BA36!Clock,  6,37,496,434
+
+//--------------------------------------------------------
+[Vcockpit08]
+Background_color=0,0,0 
+size_mm=512,512
+visible=0
+pixel_size=1024,1024
+texture=$Panel_bon_4_O
+
+gauge00=BA36!Auto_taxi_onoff,  3,170,30,24
+gauge01=BA36!Alt_Load,  172,2,167,65
+gauge02=BA36!Bus_Volts,  342,2,167,65
+gauge03=BA36!Trim,  114,226,54,124
+gauge04=BA36!Toggle_Gps,  247,92,189,112
+gauge05=BA36!Flap_lights,  87,266,23,81
+
+
+[Color]
+Day=255,255,255
+Night=1,31,28
+Luminous=255,255,255
+
+[Default View]
+X=0
+Y=0
+SIZE_X=8191
+SIZE_Y=6143
+

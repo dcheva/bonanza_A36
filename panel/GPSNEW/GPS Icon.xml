@@ -1,0 +1,16 @@
+<Gauge Name="GPS Icon" Version="1.0">
+
+<Element>
+    <Image Name="Icon.bmp" Transparent="Yes" Bright="Yes" />
+</Element>
+
+
+<Mouse>
+ <Tooltip>Select GPS Panel</Tooltip> 
+ <Cursor Type="Hand" />
+ <Click>
+   537 (&gt;K:PANEL_ID_TOGGLE)
+ </Click>
+</Mouse>
+
+</Gauge>
